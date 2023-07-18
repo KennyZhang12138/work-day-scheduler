@@ -10,7 +10,7 @@ $(document).ready(function () {
     //console.log(today.hour());
   }
   setInterval(doDate, 1000);
-
+  doDate();
   //check the timeBlock class "past", "present", and "future"
   function checkTime() {
     let timeBlock = document.querySelectorAll(".time-block");
